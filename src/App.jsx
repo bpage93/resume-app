@@ -22,6 +22,7 @@ import {
     Share2,
     Github,
     ExternalLink,
+    Mail
 } from "lucide-react";
 
 function App() {
@@ -174,8 +175,8 @@ function App() {
                 {/* --- LEFT COLUMN: PROFILE INFO (4 Cols) --- */}
                 <div className="md:col-span-4 space-y-4">
                     <div className="relative">
-                        <Avatar className="w-32 h-32 border-4 border-white shadow-md">
-                            <AvatarImage src="/your-photo.jpg" />
+                        <Avatar className="w-24 h-24 border-4 border-white shadow-sm">
+                            <AvatarImage src="/profile-picture.jpg" />
                             <AvatarFallback className="text-2xl bg-slate-800 text-white">
                                 {profile.initials}
                             </AvatarFallback>
